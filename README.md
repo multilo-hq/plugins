@@ -2,12 +2,6 @@
 
 Multilo's official plugin marketplace. Multilo adds it for you on first start (Customize → Plugins → Discover) and keeps its plugins up to date automatically.
 
-It uses the Claude Code plugin format, so the same plugins also work in Claude Code:
-
-```
-/plugin marketplace add multilo-hq/plugins
-```
-
 ## Layout
 
 - `.claude-plugin/marketplace.json`: the list of plugins.

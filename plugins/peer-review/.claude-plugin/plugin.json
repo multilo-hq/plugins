@@ -1,0 +1,9 @@
+{
+  "name": "peer-review",
+  "version": "1.0.0",
+  "description": "Write a referee report on someone else's paper: a structured, fair review with major and minor points, and a methods and statistics check.",
+  "author": { "name": "Multilo", "email": "support@multilo.com" },
+  "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/peer-review",
+  "license": "MIT",
+  "keywords": ["peer review", "referee report", "reviewer", "journal"]
+}

@@ -1,7 +1,46 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "multilo-plugins",
-  "description": "Multilo's official plugins: skills, commands, agents, hooks and MCP servers, in the Claude Code plugin format.",
-  "owner": { "name": "Multilo", "email": "support@multilo.com" },
-  "plugins": []
+  "description": "Multilo's official plugins: skills, commands, agents, hooks and MCP servers.",
+  "owner": {
+    "name": "Multilo",
+    "email": "support@multilo.com"
+  },
+  "plugins": [
+    {
+      "name": "manuscript-check",
+      "description": "Check a manuscript before you submit it: the journal's requirements, and whether citations, references, figures and tables all match up.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Multilo",
+        "email": "support@multilo.com"
+      },
+      "source": "./plugins/manuscript-check",
+      "category": "writing",
+      "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/manuscript-check"
+    },
+    {
+      "name": "peer-review",
+      "description": "Write a referee report on someone else's paper: a structured, fair review with major and minor points, and a methods and statistics check.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Multilo",
+        "email": "support@multilo.com"
+      },
+      "source": "./plugins/peer-review",
+      "category": "research",
+      "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/peer-review"
+    },
+    {
+      "name": "plain-language",
+      "description": "Turn a paper into plain language: a lay summary, a press release, or a short policy brief, accurate and readable by non-specialists.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Multilo",
+        "email": "support@multilo.com"
+      },
+      "source": "./plugins/plain-language",
+      "category": "writing",
+      "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/plain-language"
+    }
+  ]
 }

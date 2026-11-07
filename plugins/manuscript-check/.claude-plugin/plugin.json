@@ -1,0 +1,9 @@
+{
+  "name": "manuscript-check",
+  "version": "1.0.0",
+  "description": "Check a manuscript before you submit it: the journal's requirements, and whether citations, references, figures and tables all match up.",
+  "author": { "name": "Multilo", "email": "support@multilo.com" },
+  "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/manuscript-check",
+  "license": "MIT",
+  "keywords": ["manuscript", "submission", "journal", "citations", "references"]
+}

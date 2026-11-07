@@ -1,0 +1,9 @@
+{
+  "name": "plain-language",
+  "version": "1.0.0",
+  "description": "Turn a paper into plain language: a lay summary, a press release, or a short policy brief, accurate and readable by non-specialists.",
+  "author": { "name": "Multilo", "email": "support@multilo.com" },
+  "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/plain-language",
+  "license": "MIT",
+  "keywords": ["lay summary", "plain language", "press release", "policy brief", "science communication"]
+}
