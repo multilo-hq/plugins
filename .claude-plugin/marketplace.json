@@ -1,0 +1,7 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "multilo-plugins",
+  "description": "Multilo's official plugins: skills, commands, agents, hooks and MCP servers, in the Claude Code plugin format.",
+  "owner": { "name": "Multilo", "email": "support@multilo.com" },
+  "plugins": []
+}
