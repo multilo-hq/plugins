@@ -1,0 +1,9 @@
+{
+  "name": "results-table",
+  "version": "1.0.0",
+  "description": "Turn a data file into a paper-ready results table: group means and SDs, consistent decimals, in Markdown or LaTeX booktabs.",
+  "author": { "name": "Multilo", "email": "support@multilo.com" },
+  "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/results-table",
+  "license": "Apache-2.0",
+  "keywords": ["results table", "table 1", "summary statistics", "mean", "standard deviation", "latex", "booktabs", "markdown table"]
+}

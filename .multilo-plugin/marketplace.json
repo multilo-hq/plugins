@@ -41,6 +41,18 @@
       "source": "./plugins/plain-language",
       "category": "writing",
       "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/plain-language"
+    },
+    {
+      "name": "results-table",
+      "description": "Turn a data file into a paper-ready results table: group means and SDs, consistent decimals, in Markdown or LaTeX booktabs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Multilo",
+        "email": "support@multilo.com"
+      },
+      "source": "./plugins/results-table",
+      "category": "research",
+      "homepage": "https://github.com/multilo-hq/plugins/tree/main/plugins/results-table"
     }
   ]
 }

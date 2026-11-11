@@ -4,7 +4,7 @@ Multilo's official plugin marketplace. Multilo adds it for you on first start (C
 
 ## Layout
 
-- `.claude-plugin/marketplace.json`: the list of plugins.
+- `.multilo-plugin/marketplace.json`: the list of plugins.
 - `plugins/`: plugins made by Multilo.
 - `external_plugins/`: plugins from partners and the community, each reviewed before it is listed.
 
@@ -12,7 +12,7 @@ Each plugin is a folder:
 
 ```
 my-plugin/
-  .claude-plugin/plugin.json   # name, version, description, author
+  .multilo-plugin/plugin.json   # name, version, description, author
   skills/<name>/SKILL.md
   commands/<name>.md
   agents/<name>.md
@@ -21,12 +21,14 @@ my-plugin/
   README.md
 ```
 
+A skill on its own is published the same way: one skill, one plugin, named after the skill (a `skills/<name>/SKILL.md` and nothing else is a complete plugin). Multilo's marketplace lists plugins only.
+
 Raise `version` in `plugin.json` with every change: Multilo updates a plugin when its version changes.
 
 ## Adding a plugin
 
 1. Put the plugin folder in `plugins/` or `external_plugins/`.
-2. Add an entry to `plugins` in `.claude-plugin/marketplace.json`:
+2. Add an entry to `plugins` in `.multilo-plugin/marketplace.json`:
 
    ```json
    { "name": "my-plugin", "source": "./external_plugins/my-plugin", "description": "What it does", "version": "1.0.0", "category": "research", "author": { "name": "You" } }
